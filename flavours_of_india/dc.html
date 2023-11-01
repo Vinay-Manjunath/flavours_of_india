@@ -1,0 +1,50 @@
+<html>
+
+<head>
+<title>debit/credit card payment</title>
+<link type="text/css" rel="stylesheet" href="fooddel.css">
+<script src="delivery.js"></script>
+</head>
+
+<body>
+
+<div style="float:left;width:200">
+<div style="float:left">
+<img src="logo.jpg" onclick="window.open('flavours_of_india.html','_self')" width="150" style="margin:0px 50px;float:left">
+</div>
+</div>
+
+<h1 style="color:orange;margin:30px 250px;float:left;font-weight:bold;font-size:40px">DEBIT/CREDIT CARD PAYMENT</h1>
+
+
+
+
+<div style="margin-left:350px;">
+
+<form>
+<fieldset style="border:4px solid orange;left:-170;top:70px;position:relative;color:orange;border-radius:25px">
+	<legend>Card details</legend><ol>
+	
+	<li><fieldset style="border:4px solid orange">
+		<legend>Card type</legend><ol>
+			<li><input type="radio" name="card">VISA</li><br>
+			<li><input type="radio" name="card">AmEx</li><br>
+			<li><input type="radio" name="card">Mastercard</li><br>
+		</ol></fieldset></li>
+		
+		
+	
+	<li style="margin:20px 0px 0px">Card Number	<input type="text" name="cardno" required style="border:2px solid orange;border-radius:25px"></li><br>
+	<li>Security code	<input type="text" name="scode" required style="border:2px solid orange;border-radius:25px"></li><br>
+	<li>Name on card	<input type="text" name="ncard" required placeholder="Exact name as on the card" style="border:2px solid orange;border-radius:25px"></li><br></ol>
+</fieldset>
+
+</div>
+</div>
+
+</div>
+<input type="submit" onclick="alert('Successfully placed the order')" value="SUBMIT" 
+style="font-size:28px;background-color:orange;width:180px;height:50px;float:left;margin:100px 50px 50px 650px;padding:10px 35px;border-radius:25px;color:white;font-weight:bold">
+</div>
+
+</form>
